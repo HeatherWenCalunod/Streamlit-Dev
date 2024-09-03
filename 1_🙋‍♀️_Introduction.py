@@ -1,6 +1,5 @@
 import streamlit as st
 from    PIL import Image
-from streamlit_navigation_bar import st_navbar
 
 prof = Image.open('assets/prof_pic.jpg')
 with open("assets/cv.pdf", "rb") as file:
